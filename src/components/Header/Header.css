@@ -1,0 +1,44 @@
+.customnth ul:nth-child(n) {
+  cursor: pointer;
+  transition: 300ms all;
+}
+.customnth ul:nth-child(n):hover {
+  color: #f98619;
+}
+.customnth ul:nth-child(n)::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 5px;
+  background-color: #f98619;
+  transform: translateY(28px) translateX(-50px);
+  border: black 1px solid;
+  border-radius: 25px;
+  transition: 600ms all ease-in-out;
+}
+.customnth ul:nth-child(3)::after {
+  margin-left: -75px;
+}
+.customnth ul:nth-child(4)::after {
+  margin-left: -45px;
+}
+.customnth ul:nth-child(5)::after {
+  margin-left: -12px;
+}
+.customnth ul:nth-child(3):hover::after {
+  width: 8.5%;
+  margin-left: -75px;
+}
+.customnth ul:nth-child(4):hover::after {
+  width: 6.5%;
+  margin-left: -45px;
+}
+.customnth ul:nth-child(5):hover::after {
+  width: 4.5%;
+  margin-left: -12px;
+}
+
+.customnth ul:nth-child(1):hover::after,
+.customnth ul:nth-child(2):hover::after {
+  width: 3.5%;
+}
