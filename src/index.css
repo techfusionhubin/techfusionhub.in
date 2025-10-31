@@ -1,11 +1,11 @@
 @import "tailwindcss";
 
 /* Custom utilities for Home page */
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
   .lg\:clip-path-diagonal {
     clip-path: polygon(0 0, 85% 0, 95% 100%, 0% 100%);
   }
-}
+} */
 
 /* :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
