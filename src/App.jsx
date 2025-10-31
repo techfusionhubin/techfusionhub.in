@@ -8,7 +8,7 @@ import About from "./pages/About/About";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/techfusionhub">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
